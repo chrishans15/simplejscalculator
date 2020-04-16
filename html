@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="C:\Users\ASUS\Downloads\dicoding\basic weh\calculator\style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="flex-container-colum card">
+        <div class="display">
+            <h1 class="displayNumber">0</h1>
+        </div>
+        <div class="flex-container-row">
+            <div class="buton">7</div>
+            <div class="buton">8</div>
+            <div class="buton">9</div>
+            <div class="buton negative">+/-</div>
+        </div>
+        <div class="flex-container-row">
+            <div class="buton">4</div>
+            <div class="buton">5</div>
+            <div class="buton">6</div>
+            <div class="buton operator">-</div>
+        </div>
+        <div class="flex-container-row">
+            <div class="buton">1</div>
+            <div class="buton">2</div>
+            <div class="buton">3</div>
+            <div class="buton operator">+</div>
+        </div>
+        <div class="flex-container-row">
+            <div class="buton clear">CE</div>
+            <div class="buton">0</div>
+            <div class="buton double equals">=</div>
+        </div>
+    </div>
+    <div class="history card">
+        <h2>Calculation History</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>First Number</th>
+                    <th>Operation</th>
+                    <th>Second Number</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody id="historyList"></tbody>
+        </table>
+    </div>
+    <script src="C:\Users\ASUS\Downloads\dicoding\basic weh\calculator\calku.js"></script>
+    <script src="C:\Users\ASUS\Downloads\dicoding\basic weh\calculator\storage.js"></script>
+</body>
+</html>
